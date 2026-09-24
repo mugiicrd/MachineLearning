@@ -15,5 +15,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 Hello Im Filip, i live in Poland. Im currently studying computer science in polish university. 
-Im interested in learning embedded systems but i dont have any experience with real life hardware.
+Im interested in learning Data science/ML, im looking forward for improvements and future collaborations.
 If you wanna ask, just ask!!
