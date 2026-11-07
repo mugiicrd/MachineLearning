@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
 #connecting the data to variable df
@@ -14,13 +15,20 @@ model = LinearRegression()
 X = df[["YearsExperience"]]
 y = df["Salary"]
 
-#training the model on the data
-model.fit(X, y)
 
-predictions = model.predict(X)
+# using the train test split function
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42, test_size=0.2)
+# training the model using data
+model.fit(X_train, y_train)
 
+# making predictions based on 20% of data and getting R^2
+print(model.predict(X_test))
+print(model.score(X_test, y_test))
+
+
+#creating pyplot so we can showcase the data
 plt.scatter(X, y)
-plt.plot(X, predictions, color='red')
+plt.plot(X, model.predict(X), color='red')
 plt.xlabel("Years of experience")
 plt.ylabel("Salary")
 plt.show()
