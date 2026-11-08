@@ -3,14 +3,14 @@ This project uses machine learning and Linear Regression to predict
 salaries based on years of professional experience.
 
 
-##Technologies Used
+## Technologies Used
 -Python
 -Pandas
 -Numpy
 -scikit-learn
 -Matplotlib
 
-#Features
+# Features
 -data exploration
 -Linear Regression model
 -training and testing data
