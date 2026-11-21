@@ -17,6 +17,13 @@ to get my results.
 ## MODEL EVALUATION
 
 --Accuracy:  99.94908886626172
+
 --Precision is:  94.8051948051948
+
 --Recall is:  74.48979591836735
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+Here is the link to the dataset i was working on
+
+
 
